@@ -1,0 +1,47 @@
+<!-- activity_learn_colors.xml -->
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/colorRed"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="Red"
+        android:textSize="18sp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/colorBlue"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Blue"
+        android:textSize="18sp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/colorGreen"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Green"
+        android:textSize="18sp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/colorYellow"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Yellow"
+        android:textSize="18sp"
+        android:textColor="@android:color/white" />
+
+</GridLayout>

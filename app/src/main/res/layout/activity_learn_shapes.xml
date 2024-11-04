@@ -8,16 +8,17 @@
     android:padding="16dp"
     android:gravity="center">
 
-    <Button
+    <ImageView
         android:id="@+id/shapeCircle"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="@drawable/shape_circle"
+        android:backgroundTint="@null"
         android:text="Circle"
         android:textSize="18sp"
         android:textColor="@android:color/black" />
 
-    <Button
+    <ImageView
         android:id="@+id/shapeSquare"
         android:layout_width="150dp"
         android:layout_height="150dp"
@@ -26,11 +27,11 @@
         android:textSize="18sp"
         android:textColor="@android:color/black" />
 
-    <Button
+    <ImageView
         android:id="@+id/shapeTriangle"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:background="@drawable/shape_triangle"
+        android:background="@drawable/triangle_shape"
         android:text="Triangle"
         android:textSize="18sp"
         android:textColor="@android:color/black" />

@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.Locale;
 
@@ -28,9 +30,17 @@ public class LearnShapesActivity extends AppCompatActivity {
         });
 
         // Setup shape buttons with click listeners
-        Button shapeCircle = findViewById(R.id.shapeCircle);
-        Button shapeSquare = findViewById(R.id.shapeSquare);
-        Button shapeTriangle = findViewById(R.id.shapeTriangle);
+//        Button shapeCircle = findViewById(R.id.shapeCircle);
+//        Button shapeSquare = findViewById(R.id.shapeSquare);
+//        Button shapeTriangle = findViewById(R.id.shapeTriangle);
+        ImageView shapeCircle = findViewById(R.id.shapeCircle);
+        shapeCircle.setBackgroundResource(R.drawable.shape_circle);
+
+        ImageView shapeSquare = findViewById(R.id.shapeSquare);
+        shapeSquare.setBackgroundResource(R.drawable.shape_square);
+
+        ImageView shapeTriangle = findViewById(R.id.shapeTriangle);
+        shapeTriangle.setBackgroundResource(R.drawable.triangle_shape);
 
         shapeCircle.setOnClickListener(new View.OnClickListener() {
             @Override
